@@ -7,23 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4C8CBF1EAC039E00238FEB /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4C8CBE1EAC039E00238FEB /* CategoriesTableViewController.swift */; };
+		CD4C8CC21EAC0D7000238FEB /* MyProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4C8CC11EAC0D7000238FEB /* MyProducts.swift */; };
+		CD538D2D1EACAA7900FA929C /* MySupermarkets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D2C1EACAA7900FA929C /* MySupermarkets.swift */; };
+		CD538D2F1EACAD9700FA929C /* supermarketsDB.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD538D2E1EACAD9700FA929C /* supermarketsDB.txt */; };
+		CD538D311EACB05900FA929C /* SupermarketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D301EACB05900FA929C /* SupermarketsTableViewController.swift */; };
+		CD538D331EACB2FB00FA929C /* SupermarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D321EACB2FB00FA929C /* SupermarketTableViewCell.swift */; };
+		CD538D361EACEEDB00FA929C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD538D351EACEEDB00FA929C /* MapKit.framework */; };
+		CD538D381EACF29700FA929C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D371EACF29700FA929C /* MapViewController.swift */; };
+		CD538D3C1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D3B1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift */; };
+		CD538D3E1EAD511400FA929C /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D3D1EAD511400FA929C /* MyAnnotation.swift */; };
+		CD538D401EAD655B00FA929C /* SelectedCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD538D3F1EAD655B00FA929C /* SelectedCategoryViewController.swift */; };
+		CD57CD931EA9F25600B4D455 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57CD921EA9F25600B4D455 /* ProductsViewController.swift */; };
+		CD57CD961EAA0DAF00B4D455 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57CD951EAA0DAF00B4D455 /* ProductViewCell.swift */; };
+		CD8836271EAB73900068088E /* productsDB.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD8836261EAB73900068088E /* productsDB.txt */; };
+		CDA877311EA9618800EE4C74 /* MSupermarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA877301EA9618800EE4C74 /* MSupermarket.swift */; };
 		CDB69F231E94EEA30007BAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */; };
-		CDB69F251E94EEA30007BAB0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB69F241E94EEA30007BAB0 /* FirstViewController.swift */; };
-		CDB69F271E94EEA30007BAB0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB69F261E94EEA30007BAB0 /* SecondViewController.swift */; };
 		CDB69F2A1E94EEA30007BAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F281E94EEA30007BAB0 /* Main.storyboard */; };
 		CDB69F2C1E94EEA40007BAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F2B1E94EEA40007BAB0 /* Assets.xcassets */; };
 		CDB69F2F1E94EEA40007BAB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F2D1E94EEA40007BAB0 /* LaunchScreen.storyboard */; };
+		CDB69F3B1E9502A40007BAB0 /* MProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB69F3A1E9502A40007BAB0 /* MProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD4C8CBE1EAC039E00238FEB /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesTableViewController.swift; path = Controllers/CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		CD4C8CC11EAC0D7000238FEB /* MyProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProducts.swift; sourceTree = "<group>"; };
+		CD538D2C1EACAA7900FA929C /* MySupermarkets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySupermarkets.swift; sourceTree = "<group>"; };
+		CD538D2E1EACAD9700FA929C /* supermarketsDB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = supermarketsDB.txt; sourceTree = "<group>"; };
+		CD538D301EACB05900FA929C /* SupermarketsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupermarketsTableViewController.swift; sourceTree = "<group>"; };
+		CD538D321EACB2FB00FA929C /* SupermarketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupermarketTableViewCell.swift; sourceTree = "<group>"; };
+		CD538D351EACEEDB00FA929C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD538D371EACF29700FA929C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CD538D3B1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedMarketTableViewController.swift; sourceTree = "<group>"; };
+		CD538D3D1EAD511400FA929C /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+		CD538D3F1EAD655B00FA929C /* SelectedCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectedCategoryViewController.swift; sourceTree = "<group>"; };
+		CD57CD921EA9F25600B4D455 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductsViewController.swift; path = Controllers/ProductsViewController.swift; sourceTree = "<group>"; };
+		CD57CD951EAA0DAF00B4D455 /* ProductViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewCell.swift; path = MyShop/ProductViewCell.swift; sourceTree = "<group>"; };
+		CD8836261EAB73900068088E /* productsDB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = productsDB.txt; sourceTree = "<group>"; };
+		CDA877301EA9618800EE4C74 /* MSupermarket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSupermarket.swift; path = Models/MSupermarket.swift; sourceTree = "<group>"; };
 		CDB69F1F1E94EEA30007BAB0 /* MyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDB69F241E94EEA30007BAB0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CDB69F261E94EEA30007BAB0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CDB69F291E94EEA30007BAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDB69F2B1E94EEA40007BAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDB69F2E1E94EEA40007BAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDB69F301E94EEA40007BAB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB69F3A1E9502A40007BAB0 /* MProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MProduct.swift; path = Models/MProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD538D361EACEEDB00FA929C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD4C8CC01EAC04C500238FEB /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				CD4C8CC11EAC0D7000238FEB /* MyProducts.swift */,
+				CD538D2C1EACAA7900FA929C /* MySupermarkets.swift */,
+			);
+			name = Structs;
+			sourceTree = "<group>";
+		};
+		CD538D341EACEEDB00FA929C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD538D351EACEEDB00FA929C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD57CD941EAA0D6400B4D455 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD57CD951EAA0DAF00B4D455 /* ProductViewCell.swift */,
+				CD538D321EACB2FB00FA929C /* SupermarketTableViewCell.swift */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		CDB69F161E94EEA30007BAB0 = {
 			isa = PBXGroup;
 			children = (
 				CDB69F211E94EEA30007BAB0 /* MyShop */,
 				CDB69F201E94EEA30007BAB0 /* Products */,
+				CD538D341EACEEDB00FA929C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,42 @@
 		CDB69F211E94EEA30007BAB0 /* MyShop */ = {
 			isa = PBXGroup;
 			children = (
+				CD4C8CC01EAC04C500238FEB /* Structs */,
+				CD8836261EAB73900068088E /* productsDB.txt */,
+				CD538D2E1EACAD9700FA929C /* supermarketsDB.txt */,
+				CD57CD941EAA0D6400B4D455 /* Views */,
 				CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */,
-				CDB69F241E94EEA30007BAB0 /* FirstViewController.swift */,
-				CDB69F261E94EEA30007BAB0 /* SecondViewController.swift */,
 				CDB69F281E94EEA30007BAB0 /* Main.storyboard */,
+				CDB69F391E94FF810007BAB0 /* Controllers */,
 				CDB69F2B1E94EEA40007BAB0 /* Assets.xcassets */,
 				CDB69F2D1E94EEA40007BAB0 /* LaunchScreen.storyboard */,
 				CDB69F301E94EEA40007BAB0 /* Info.plist */,
+				CDB69F3C1E9502AB0007BAB0 /* Models */,
+				CD538D3D1EAD511400FA929C /* MyAnnotation.swift */,
 			);
 			path = MyShop;
+			sourceTree = "<group>";
+		};
+		CDB69F391E94FF810007BAB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD57CD921EA9F25600B4D455 /* ProductsViewController.swift */,
+				CD4C8CBE1EAC039E00238FEB /* CategoriesTableViewController.swift */,
+				CD538D301EACB05900FA929C /* SupermarketsTableViewController.swift */,
+				CD538D371EACF29700FA929C /* MapViewController.swift */,
+				CD538D3B1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift */,
+				CD538D3F1EAD655B00FA929C /* SelectedCategoryViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CDB69F3C1E9502AB0007BAB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDB69F3A1E9502A40007BAB0 /* MProduct.swift */,
+				CDA877301EA9618800EE4C74 /* MSupermarket.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +213,9 @@
 			files = (
 				CDB69F2F1E94EEA40007BAB0 /* LaunchScreen.storyboard in Resources */,
 				CDB69F2C1E94EEA40007BAB0 /* Assets.xcassets in Resources */,
+				CD8836271EAB73900068088E /* productsDB.txt in Resources */,
 				CDB69F2A1E94EEA30007BAB0 /* Main.storyboard in Resources */,
+				CD538D2F1EACAD9700FA929C /* supermarketsDB.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +226,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB69F271E94EEA30007BAB0 /* SecondViewController.swift in Sources */,
+				CD538D381EACF29700FA929C /* MapViewController.swift in Sources */,
+				CD57CD931EA9F25600B4D455 /* ProductsViewController.swift in Sources */,
 				CDB69F231E94EEA30007BAB0 /* AppDelegate.swift in Sources */,
-				CDB69F251E94EEA30007BAB0 /* FirstViewController.swift in Sources */,
+				CDA877311EA9618800EE4C74 /* MSupermarket.swift in Sources */,
+				CD538D2D1EACAA7900FA929C /* MySupermarkets.swift in Sources */,
+				CD4C8CC21EAC0D7000238FEB /* MyProducts.swift in Sources */,
+				CDB69F3B1E9502A40007BAB0 /* MProduct.swift in Sources */,
+				CD538D401EAD655B00FA929C /* SelectedCategoryViewController.swift in Sources */,
+				CD57CD961EAA0DAF00B4D455 /* ProductViewCell.swift in Sources */,
+				CD538D331EACB2FB00FA929C /* SupermarketTableViewCell.swift in Sources */,
+				CD4C8CBF1EAC039E00238FEB /* CategoriesTableViewController.swift in Sources */,
+				CD538D3C1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift in Sources */,
+				CD538D311EACB05900FA929C /* SupermarketsTableViewController.swift in Sources */,
+				CD538D3E1EAD511400FA929C /* MyAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +366,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K26T98UN6W;
 				INFOPLIST_FILE = MyShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.MyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -282,10 +381,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = K26T98UN6W;
 				INFOPLIST_FILE = MyShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ie.ucd.cs.MyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -308,6 +409,7 @@
 				CDB69F351E94EEA40007BAB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
