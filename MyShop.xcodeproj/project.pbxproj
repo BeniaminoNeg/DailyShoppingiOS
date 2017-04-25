@@ -22,6 +22,7 @@
 		CD57CD961EAA0DAF00B4D455 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD57CD951EAA0DAF00B4D455 /* ProductViewCell.swift */; };
 		CD8836271EAB73900068088E /* productsDB.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD8836261EAB73900068088E /* productsDB.txt */; };
 		CDA877311EA9618800EE4C74 /* MSupermarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA877301EA9618800EE4C74 /* MSupermarket.swift */; };
+		CDAFB9181EAEC8410038A80B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFB9171EAEC8410038A80B /* SearchViewController.swift */; };
 		CDB69F231E94EEA30007BAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */; };
 		CDB69F2A1E94EEA30007BAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F281E94EEA30007BAB0 /* Main.storyboard */; };
 		CDB69F2C1E94EEA40007BAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F2B1E94EEA40007BAB0 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		CD57CD951EAA0DAF00B4D455 /* ProductViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewCell.swift; path = MyShop/ProductViewCell.swift; sourceTree = "<group>"; };
 		CD8836261EAB73900068088E /* productsDB.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = productsDB.txt; sourceTree = "<group>"; };
 		CDA877301EA9618800EE4C74 /* MSupermarket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSupermarket.swift; path = Models/MSupermarket.swift; sourceTree = "<group>"; };
+		CDAFB9171EAEC8410038A80B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		CDB69F1F1E94EEA30007BAB0 /* MyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB69F291E94EEA30007BAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				CD538D371EACF29700FA929C /* MapViewController.swift */,
 				CD538D3B1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift */,
 				CD538D3F1EAD655B00FA929C /* SelectedCategoryViewController.swift */,
+				CDAFB9171EAEC8410038A80B /* SearchViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAFB9181EAEC8410038A80B /* SearchViewController.swift in Sources */,
 				CD538D381EACF29700FA929C /* MapViewController.swift in Sources */,
 				CD57CD931EA9F25600B4D455 /* ProductsViewController.swift in Sources */,
 				CDB69F231E94EEA30007BAB0 /* AppDelegate.swift in Sources */,

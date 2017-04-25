@@ -52,6 +52,7 @@ class SupermarketsTableViewController: UITableViewController {
         }
         print("Il supermarket array contiene")
         print(MySupermarkets.supermarkets.count)
+        print("Ziiiiiiieta")
         return MySupermarkets.supermarkets.count
     }
 
@@ -72,14 +73,59 @@ class SupermarketsTableViewController: UITableViewController {
         
         //self.selectedSupermarket = MySupermarkets.supermarkets[indexPath.row]
         
+        print("SONO QUAAAAAAAAAAAAA")
+        
         MySupermarkets.current = indexPath.row
         
         print("current")
         print(MySupermarkets.current)
         
+        
+        
         print("vado avanti alla pag supermercato")
         
         self.performSegue(withIdentifier: "marketPressedSegue", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        
+        /*
+        
+        print("Sto nel prepare di supermarkets per andare al singolo")
+        let destinationNavigationController = segue.destination as! UINavigationController
+        let targetController = destinationNavigationController.topViewController as! SelectedMarketTableViewController
+        print("Dopo target controller, è questo:")
+        print(targetController)
+        
+        //let vc_destinazione = segue.destination as! SelectedCategoryViewController
+        
+        print("MarketCurrent")
+        print(MySupermarkets.current)
+        
+        print("Il selected market id è")
+        let selectedMarketId = MySupermarkets.supermarkets[MySupermarkets.current].idMarket
+        print(selectedMarketId)
+        
+        print("Sto passando nel segue il seguente codice di market")
+        print(selectedMarketId)
+        
+        targetController.thisSupermarketId=selectedMarketId
+        
+        
+        for p in MyProducts.products {
+            print("p market")
+            print(p.idMarket)
+            if (p.idMarket == selectedMarketId) {
+                print("e di questo market")
+                targetController.products.append(p)
+            }
+            else{
+                print("Niente match market")
+            }
+        }*/
+        
+        
+        
     }
     
     
