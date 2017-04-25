@@ -10,36 +10,19 @@ import UIKit
 
 class SearchViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
+    @IBOutlet weak var productsCollectionView: UICollectionView!
     
+    @IBOutlet var resultSearchController: UISearchController!
     
-    var resultSearchController: UISearchController?
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Search"
-
-        // Do any additional setup after loading the view.
         
-        self.resultSearchController = ({
-            // creo un oggetto di tipo UISearchController
-            let controller = UISearchController(searchResultsController: nil)
-            // rimuove la tableView di sottofondo in modo da poter successivamente visualizzare gli elementi cercati
-            controller.dimsBackgroundDuringPresentation = false
-            
-            // il searchResultsUpdater, ovvero colui che gestirà gli eventi di ricerca, sarà la ListaTableViewController (o self)
-            controller.searchResultsUpdater = self as! UISearchResultsUpdating
-            
-            // impongo alla searchBar, contenuta all'interno del controller, di adattarsi alle dimensioni dell'applicazioni
-            controller.searchBar.sizeToFit()
-            
-            /*
-            // atacco alla parte superiore della TableView la searchBar
-            self.tableView.tableHeaderView = controller.searchBar*/
-            
-            // restituisco il controller creato
-            return controller
-        })()
+        
     }
 
     override func didReceiveMemoryWarning() {
