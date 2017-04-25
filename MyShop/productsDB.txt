@@ -1,2 +1,12 @@
 01,Pasta,3.5€,2,F
 02,Milk,2€,1,D
+03,Meat,5€,2,F
+04,Soap,3€,1,O
+05,Tuna,2€,2,F
+06,Salmon,3€,1,F
+07,Beer,1€,3,D
+08,Wine,8€,2,D
+09,Muffin,1€,3,F
+10,Newspaper,2€,3,O
+11,Apple,1€,1,F
+12,Pear,1€,3,F

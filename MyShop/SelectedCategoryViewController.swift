@@ -10,17 +10,23 @@ import UIKit
 
 class SelectedCategoryViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
+    var productsCategory = [MProduct]()
+    
     @IBOutlet weak var productOfcategoryCollectionView: UICollectionView!
     var selectedCategory:String = String()
     
+    @IBAction func unwindSegue(_ sender: UIBarButtonItem) {
+        
+        
+        print("vado indietro")
+        
+        self.performSegue(withIdentifier: "backToCategories", sender: nil)
+    }
     
-    var products: [MProduct] = [MProduct]()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print("I orodotti che sono in questa categoria")
-        print(products)
         
         
         // Do any additional setup after loading the view.
@@ -51,12 +57,31 @@ class SelectedCategoryViewController: UIViewController, UICollectionViewDelegate
     
     // MARK: - UICollectionViewDataSource protocol
     
+    func getProdThisCategory() -> [MProduct] {
+        var productscategory = [MProduct]()
+        let thiscategorycode = MyCategoryChoosen.categoriesCodes[MyCategoryChoosen.selectedCategoryInt]
+        
+        print("Cate code")
+        print(thiscategorycode)
+        
+        for p in MyProducts.products {
+            print("p categoria")
+            if p.category == thiscategorycode {
+                productscategory.append(p)
+            }
+        }
+        return productscategory
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         //questo valore serve per far capire alla Collection View quante celle devono essere visualizzate
         print("Number of items")
-        print(products.count)
-        return products.count
+        
+        self.productsCategory = self.getProdThisCategory()
+        
+        print(productsCategory.count)
+        return productsCategory.count
     }
     
     func collectionView( _ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -65,7 +90,7 @@ class SelectedCategoryViewController: UIViewController, UICollectionViewDelegate
         
 
         
-        let currentProduct = products[indexPath.row]
+        let currentProduct = productsCategory[indexPath.row]
         
         let productName = currentProduct.name
         cell.productNameLabel.text = productName

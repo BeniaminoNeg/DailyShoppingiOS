@@ -24,6 +24,7 @@
 		CDA877311EA9618800EE4C74 /* MSupermarket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA877301EA9618800EE4C74 /* MSupermarket.swift */; };
 		CDAFB91A1EAED52E0038A80B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFB9191EAED52E0038A80B /* SearchTableViewController.swift */; };
 		CDAFB91C1EAED69B0038A80B /* ProductSearchedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFB91B1EAED69B0038A80B /* ProductSearchedTableViewCell.swift */; };
+		CDAFB91E1EAEFA5B0038A80B /* MyCategoryChoosen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAFB91D1EAEFA5B0038A80B /* MyCategoryChoosen.swift */; };
 		CDB69F231E94EEA30007BAB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */; };
 		CDB69F2A1E94EEA30007BAB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F281E94EEA30007BAB0 /* Main.storyboard */; };
 		CDB69F2C1E94EEA40007BAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB69F2B1E94EEA40007BAB0 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		CDA877301EA9618800EE4C74 /* MSupermarket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MSupermarket.swift; path = Models/MSupermarket.swift; sourceTree = "<group>"; };
 		CDAFB9191EAED52E0038A80B /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		CDAFB91B1EAED69B0038A80B /* ProductSearchedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductSearchedTableViewCell.swift; sourceTree = "<group>"; };
+		CDAFB91D1EAEFA5B0038A80B /* MyCategoryChoosen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCategoryChoosen.swift; sourceTree = "<group>"; };
 		CDB69F1F1E94EEA30007BAB0 /* MyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB69F221E94EEA30007BAB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDB69F291E94EEA30007BAB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				CD4C8CC11EAC0D7000238FEB /* MyProducts.swift */,
 				CD538D2C1EACAA7900FA929C /* MySupermarkets.swift */,
+				CDAFB91D1EAEFA5B0038A80B /* MyCategoryChoosen.swift */,
 			);
 			name = Structs;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				CD538D3C1EAD1FEE00FA929C /* SelectedMarketTableViewController.swift in Sources */,
 				CD538D311EACB05900FA929C /* SupermarketsTableViewController.swift in Sources */,
 				CD538D3E1EAD511400FA929C /* MyAnnotation.swift in Sources */,
+				CDAFB91E1EAEFA5B0038A80B /* MyCategoryChoosen.swift in Sources */,
 				CDAFB91C1EAED69B0038A80B /* ProductSearchedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

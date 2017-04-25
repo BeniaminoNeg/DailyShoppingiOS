@@ -91,6 +91,12 @@ class SelectedMarketTableViewController: UIViewController, UICollectionViewDeleg
         self.performSegue(withIdentifier: "openMap", sender: nil)
     }
     
+    @IBAction func backButtonPressed(_ sender: UIBarButtonItem) {
+        
+        print("vado indietro ")
+        
+        self.performSegue(withIdentifier: "marketBackToHome", sender: nil)
+    }
     
     @IBOutlet weak var distanceLabel: UILabel!
 

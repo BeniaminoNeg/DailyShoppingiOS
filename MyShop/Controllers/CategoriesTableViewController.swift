@@ -67,20 +67,20 @@ class CategoriesTableViewController: UITableViewController {
         
         //self.selectedSupermarket = MySupermarkets.supermarkets[indexPath.row]
         
-        self.selectedCategoryInt = indexPath.row
+        MyCategoryChoosen.selectedCategoryInt = indexPath.row
         
-        
+
         
         self.performSegue(withIdentifier: "showCategoryProducts", sender: nil)
     }
-    
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         let destinationNavigationController = segue.destination as! UINavigationController
         let targetController = destinationNavigationController.topViewController as! SelectedCategoryViewController
         
         //let vc_destinazione = segue.destination as! SelectedCategoryViewController
         
-        print("Sto passando nel segue il seguente codice di categoria")
+        //print("Sto passando nel segue il seguente codice di categoria")
         print(self.categoriesCodes[self.selectedCategoryInt])
         print("Soreta")
         targetController.selectedCategory = self.categoriesCodes[self.selectedCategoryInt]
@@ -103,7 +103,7 @@ class CategoriesTableViewController: UITableViewController {
  
         
         
-    }
+    }*/
     
 
     /*

@@ -1,2 +1,3 @@
 Tesco,5-7 Donnybrook Mall Dublin 4 Irlanda,1,53.322666,-6.238113
 DonnybrookFair,89 Morehampton Rd Dublin 4 Irlanda,2,53.324392,-6.240243
+Spar,89 Morehampton Rd Dublin 4 Irland,3,53.321390,-6.234949

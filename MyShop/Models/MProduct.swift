@@ -25,6 +25,9 @@ class MProduct: NSObject {
         self.category=category
         
     }
+    override init() {
+        super.init()
+    }
     
     
 

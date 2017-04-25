@@ -11,6 +11,11 @@ import MapKit
 
 class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
     
+    @IBAction func mapBackToMarketPressed(_ sender: UIBarButtonItem) {
+        print("vado avanti alla mappa")
+        
+        self.performSegue(withIdentifier: "mapBackToMarket", sender: nil)
+    }
 
     @IBOutlet weak var myMapView: MKMapView!
     

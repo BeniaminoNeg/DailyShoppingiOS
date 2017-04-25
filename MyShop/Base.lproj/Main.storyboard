@@ -121,6 +121,13 @@
                                     <outlet property="delegate" destination="v5B-bh-XiF" id="vtg-1Z-NoU"/>
                                 </connections>
                             </collectionView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AKX-4b-cg3">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="shJ-HE-jiI"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -131,7 +138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4fV-53-nOf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1712.6953125" y="-331.62518301610538"/>
+            <point key="canvasLocation" x="1676.3671875" y="-300.87847730600288"/>
         </scene>
         <!--Categories List-->
         <scene sceneID="IuQ-Bs-DGY">
@@ -207,7 +214,7 @@
             </objects>
             <point key="canvasLocation" x="1733.5999999999999" y="1097.9010494752624"/>
         </scene>
-        <!--SelectedCategory Scene-->
+        <!--Selected Category View Controller-->
         <scene sceneID="F0T-HL-Lre">
             <objects>
                 <viewController id="Gge-Pn-ADX" customClass="SelectedCategoryViewController" customModule="MyShop" customModuleProvider="target" sceneMemberID="viewController">
@@ -278,17 +285,32 @@
                                     <outlet property="delegate" destination="Gge-Pn-ADX" id="Pge-LX-IUd"/>
                                 </connections>
                             </collectionView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yfs-xn-QQE">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Selected Category" id="KD6-lB-DuU"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="SelectedCategory Scene" id="OwG-59-2Jm"/>
+                    <navigationItem key="navigationItem" id="OwG-59-2Jm">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="HPl-PK-vOk"/>
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="lsm-fZ-eqb">
+                            <connections>
+                                <action selector="unwindSegue:" destination="Gge-Pn-ADX" id="dx3-lI-1Go"/>
+                                <segue destination="49e-Tb-3d3" kind="show" identifier="backToCategories" id="1Pz-pv-zg6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="productOfcategoryCollectionView" destination="myE-li-tIM" id="d0Z-9p-enx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L3y-0a-gdw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3734" y="421"/>
+            <point key="canvasLocation" x="3733.5937499999995" y="420.79062957540259"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="tAS-YD-CqE">
@@ -417,11 +439,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CzD-nZ-Ije">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="HHn-Td-UF3">
+                            <connections>
+                                <action selector="backButtonPressed:" destination="yfq-ef-to7" id="wou-LC-Ytt"/>
+                                <segue destination="49e-Tb-3d3" kind="show" identifier="marketBackToHome" id="HbZ-Xq-fa0"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="plain" id="uWh-hD-N15">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I5h-Q5-LIh">
                                 <rect key="frame" x="777" y="7" width="227" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Map"/>
                                 <connections>
                                     <action selector="mapButtonPressed:" destination="yfq-ef-to7" eventType="touchUpInside" id="0Px-ct-I9K"/>
@@ -440,7 +468,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3OO-4u-cBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4470.703125" y="1857.9795021961932"/>
+            <point key="canvasLocation" x="3734" y="1234"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xC0-jn-opa">
@@ -482,7 +510,14 @@
                             <constraint firstItem="yeV-Sj-EZf" firstAttribute="top" secondItem="3bO-3J-rtZ" secondAttribute="top" id="YBq-11-U6j"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="ur1-aW-gN5"/>
+                    <navigationItem key="navigationItem" id="ur1-aW-gN5">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="U4L-70-ZcU">
+                            <connections>
+                                <action selector="mapBackToMarketPressed:" destination="wIo-rn-QFe" id="dTN-5o-kVB"/>
+                                <segue destination="yfq-ef-to7" kind="show" id="Mcv-Ma-Rv8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="myMapView" destination="yeV-Sj-EZf" id="z9C-3j-6eL"/>
                     </connections>
@@ -603,8 +638,8 @@
                                             <color key="textColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="€€€" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pN0-uj-xwS">
-                                            <rect key="frame" x="792" y="12" width="224" height="218"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="€€€" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pN0-uj-xwS">
+                                            <rect key="frame" x="792" y="0.0" width="224" height="132"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="123"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -650,4 +685,8 @@
         <image name="Search" width="25" height="25"/>
         <image name="Supermarkets" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="zFx-lJ-XNi"/>
+        <segue reference="HbZ-Xq-fa0"/>
+    </inferredMetricsTieBreakers>
 </document>
